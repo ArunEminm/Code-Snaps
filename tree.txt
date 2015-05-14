@@ -1,0 +1,442 @@
+.
+├── README.md
+├── c
+│   ├── datastructures
+│   │   ├── binarysearchtree
+│   │   │   ├── binarysearchtree.c
+│   │   │   ├── binarysearchtree.h
+│   │   │   ├── binarysearchtree.o
+│   │   │   └── makefile
+│   │   ├── linkedlist
+│   │   │   ├── linkedlist.c
+│   │   │   ├── linkedlist.h
+│   │   │   ├── linkedlist.o
+│   │   │   └── makefile
+│   │   ├── ost_with_bst
+│   │   │   ├── makefile
+│   │   │   ├── orderstatistictreewithbinarysearchtree.c
+│   │   │   ├── orderstatistictreewithbinarysearchtree.h
+│   │   │   └── orderstatistictreewithbinarysearchtree.o
+│   │   ├── queue
+│   │   │   ├── makefile
+│   │   │   ├── queue.c
+│   │   │   ├── queue.h
+│   │   │   └── queue.o
+│   │   ├── redblacktree
+│   │   │   ├── drawrbt.c
+│   │   │   ├── drawrbt.o
+│   │   │   ├── graph.dot
+│   │   │   ├── graph.dot.png
+│   │   │   ├── makefile
+│   │   │   ├── queueofrbtnodes.h
+│   │   │   ├── redblacktree.c
+│   │   │   ├── redblacktree.h
+│   │   │   └── redblacktree.o
+│   │   └── stack
+│   │       ├── makefile
+│   │       ├── stack.c
+│   │       ├── stack.h
+│   │       └── stack.o
+│   ├── graphtheory
+│   │   ├── graph.c
+│   │   ├── graph.dot
+│   │   ├── graph.h
+│   │   ├── graph.o
+│   │   ├── input.txt
+│   │   ├── input05.txt
+│   │   ├── inputsample01.txt
+│   │   ├── linkedlist.h
+│   │   ├── makefile
+│   │   └── queue.h
+│   ├── hackerrank
+│   │   ├── algorithmic-crush
+│   │   │   ├── algorithmiccrush.c
+│   │   │   ├── algorithmiccrush.o
+│   │   │   ├── crush-english.pdf
+│   │   │   ├── input.txt
+│   │   │   ├── input01.txt
+│   │   │   ├── input07.txt
+│   │   │   ├── makefile
+│   │   │   ├── output.txt
+│   │   │   ├── output01.txt
+│   │   │   └── output07.txt
+│   │   ├── bus-station
+│   │   │   ├── bus-station-english.pdf
+│   │   │   ├── busstation.c
+│   │   │   ├── busstation.o
+│   │   │   ├── input.txt
+│   │   │   ├── input07.txt
+│   │   │   ├── input23.txt
+│   │   │   ├── makefile
+│   │   │   ├── output07.txt
+│   │   │   └── output23.txt
+│   │   ├── cavity-map
+│   │   │   ├── cavity-map-english.pdf
+│   │   │   ├── cavitymap.c
+│   │   │   ├── cavitymap.o
+│   │   │   └── makefile
+│   │   ├── closestnumbers
+│   │   │   ├── closest-numbers-english.pdf
+│   │   │   ├── closestnumbers.c
+│   │   │   ├── closestnumbers.o
+│   │   │   ├── inputsample00.txt
+│   │   │   ├── inputsample01.txt
+│   │   │   └── makefile
+│   │   ├── counter-game
+│   │   │   ├── counter-game-english.pdf
+│   │   │   ├── countergame.c
+│   │   │   ├── countergame.o
+│   │   │   └── makefile
+│   │   ├── counting-sort-1
+│   │   │   ├── countingsort1-english.pdf
+│   │   │   ├── countingsort1.c
+│   │   │   ├── countingsort1.o
+│   │   │   └── makefile
+│   │   ├── counting-sort-2
+│   │   │   ├── countingsort2-english.pdf
+│   │   │   ├── countingsort2.c
+│   │   │   ├── countingsort2.o
+│   │   │   └── makefile
+│   │   ├── counting-sort-3
+│   │   │   ├── countingsort3-english.pdf
+│   │   │   ├── countingsort3.c
+│   │   │   ├── countingsort3.o
+│   │   │   └── makefile
+│   │   ├── cut-the-sticks
+│   │   │   ├── cut-the-sticks-english.pdf
+│   │   │   ├── cutthesticks.c
+│   │   │   ├── cutthesticks.o
+│   │   │   └── makefile
+│   │   ├── cutting-boards
+│   │   │   ├── cuttingboards.c
+│   │   │   ├── cuttingboards.o
+│   │   │   └── makefile
+│   │   ├── eventree
+│   │   │   ├── even-tree-english.pdf
+│   │   │   ├── eventree.c
+│   │   │   ├── eventree.o
+│   │   │   ├── graph.dot
+│   │   │   ├── graph.dot.png
+│   │   │   ├── input05.txt
+│   │   │   ├── input07.txt
+│   │   │   ├── inputsample01.txt
+│   │   │   ├── inputsample02.txt
+│   │   │   ├── makefile
+│   │   │   ├── output05.txt
+│   │   │   └── output07.txt
+│   │   ├── find-the-median
+│   │   │   ├── find-median-english.pdf
+│   │   │   ├── findthemedian.c
+│   │   │   ├── findthemedian.o
+│   │   │   └── makefile
+│   │   ├── game-of-rotation
+│   │   │   ├── game-of-rotation-english.pdf
+│   │   │   ├── gameofrotation.c
+│   │   │   ├── gameofrotation.o
+│   │   │   ├── input.txt
+│   │   │   └── makefile
+│   │   ├── insertion-sort-advanced-analysis
+│   │   │   ├── input.txt
+│   │   │   ├── input04.txt
+│   │   │   ├── input06.txt
+│   │   │   ├── input07.txt
+│   │   │   ├── input08.txt
+│   │   │   ├── insertion-sort-english.pdf
+│   │   │   ├── insertionsortadvancedanalysis_gfg.c
+│   │   │   ├── insertionsortadvancedanalysis_gfg.o
+│   │   │   ├── insertionsortadvancedanalysis_v1.c
+│   │   │   ├── insertionsortadvancedanalysis_v1.o
+│   │   │   ├── insertionsortadvancedanalysis_v2.c
+│   │   │   ├── insertionsortadvancedanalysis_v2.o
+│   │   │   ├── insertionsortadvancedanalysis_v3.c
+│   │   │   ├── insertionsortadvancedanalysis_v3.o
+│   │   │   ├── insertionsortadvancedanalysis_v4.c
+│   │   │   ├── insertionsortadvancedanalysis_v4.o
+│   │   │   ├── makefile
+│   │   │   ├── output.txt
+│   │   │   ├── output04.txt
+│   │   │   ├── output06.txt
+│   │   │   ├── output07.txt
+│   │   │   └── output08.txt
+│   │   ├── lonely-integer
+│   │   │   ├── lonely-integer-english.pdf
+│   │   │   ├── lonelyinteger.c
+│   │   │   ├── lonelyinteger.o
+│   │   │   └── makefile
+│   │   ├── make-it-anagram
+│   │   │   ├── input.txt
+│   │   │   ├── input14.txt
+│   │   │   ├── make-it-anagram-english.pdf
+│   │   │   ├── makefile
+│   │   │   ├── makeitanagram.c
+│   │   │   ├── makeitanagram.o
+│   │   │   ├── output.txt
+│   │   │   └── output14.txt
+│   │   ├── mark-and-toys
+│   │   │   ├── makefile
+│   │   │   ├── mark-and-toys-english.pdf
+│   │   │   ├── markandtoys.c
+│   │   │   └── markandtoys.o
+│   │   ├── project-euler-#67--maximum-path-sum-ii
+│   │   │   ├── input.txt
+│   │   │   ├── makefile
+│   │   │   ├── projecteuler#67-maximumpathsumii.c
+│   │   │   └── projecteuler#67-maximumpathsumii.o
+│   │   ├── quicksort-2-sorting
+│   │   │   ├── makefile
+│   │   │   ├── quicksort2-english.pdf
+│   │   │   ├── quicksort2sorting.c
+│   │   │   └── quicksort2sorting.o
+│   │   ├── quicksort-in-place
+│   │   │   ├── makefile
+│   │   │   ├── quicksort3-english.pdf
+│   │   │   ├── quicksortinplace.c
+│   │   │   └── quicksortinplace.o
+│   │   ├── running-time-of-quicksort
+│   │   │   ├── makefile
+│   │   │   ├── quicksort4-english.pdf
+│   │   │   ├── runningtimeofquicksort.c
+│   │   │   └── runningtimeofquicksort.o
+│   │   ├── sansa-and-xor
+│   │   │   ├── input.txt
+│   │   │   ├── makefile
+│   │   │   ├── sansa-and-xor-english.pdf
+│   │   │   ├── sansaandxor.c
+│   │   │   └── sansaandxor.o
+│   │   ├── service-lane
+│   │   │   ├── input.txt
+│   │   │   ├── input05.txt
+│   │   │   ├── makefile
+│   │   │   ├── output.txt
+│   │   │   ├── output05.txt
+│   │   │   ├── service-lane-english.pdf
+│   │   │   ├── servicelane.c
+│   │   │   ├── servicelane.o
+│   │   │   └── setterscode.cpp
+│   │   ├── sherlock-and-array
+│   │   │   ├── makefile
+│   │   │   ├── sherlock-and-array-english.pdf
+│   │   │   ├── sherlockandarray.c
+│   │   │   └── sherlockandarray.o
+│   │   ├── sherlock-and-pairs
+│   │   │   ├── input.txt
+│   │   │   ├── input15.txt
+│   │   │   ├── makefile
+│   │   │   ├── output.txt
+│   │   │   ├── output15.txt
+│   │   │   ├── sherlock-and-pairs-english.pdf
+│   │   │   ├── sherlockandpairs.c
+│   │   │   └── sherlockandpairs.o
+│   │   ├── sherlock-and-queries
+│   │   │   ├── input03.txt
+│   │   │   ├── input06.txt
+│   │   │   ├── input18.txt
+│   │   │   ├── makefile
+│   │   │   ├── output.txt
+│   │   │   ├── output03.txt
+│   │   │   ├── output06.txt
+│   │   │   ├── output18.txt
+│   │   │   ├── sherlock-and-queries-english.pdf
+│   │   │   ├── sherlockandqueries.c
+│   │   │   └── sherlockandqueries.o
+│   │   ├── sherlock-and-watson
+│   │   │   ├── input.txt
+│   │   │   ├── input04.txt
+│   │   │   ├── input09.txt
+│   │   │   ├── input12.txt
+│   │   │   ├── makefile
+│   │   │   ├── output.txt
+│   │   │   ├── output04.txt
+│   │   │   ├── output09.txt
+│   │   │   ├── output12.txt
+│   │   │   ├── sherlock-and-watson-english.pdf
+│   │   │   ├── sherlockandwatson.c
+│   │   │   └── sherlockandwatson.o
+│   │   ├── taumandbday
+│   │   │   ├── input.txt
+│   │   │   ├── makefile
+│   │   │   ├── taumandbday.c
+│   │   │   └── taumandbday.o
+│   │   ├── the-full-counting-sort
+│   │   │   ├── countingsort4-english.pdf
+│   │   │   ├── makefile
+│   │   │   ├── thefullcountingsort.c
+│   │   │   └── thefullcountingsort.o
+│   │   └── two-arrays
+│   │       ├── input.txt
+│   │       ├── makefile
+│   │       ├── two-arrays-english.pdf
+│   │       ├── twoarrays.c
+│   │       └── twoarrays.o
+│   ├── inprogress
+│   │   ├── almostsorted
+│   │   │   ├── almost-sorted-english.pdf
+│   │   │   ├── almostsorted.c
+│   │   │   ├── almostsorted.o
+│   │   │   └── makefile
+│   │   ├── crabgraphs
+│   │   │   ├── crab-graphs-english.pdf
+│   │   │   ├── crabgraphs.c
+│   │   │   ├── crabgraphs.o
+│   │   │   ├── inputsample01.txt
+│   │   │   └── makefile
+│   │   └── swapnodes
+│   │       ├── inputsample1.txt
+│   │       ├── inputsample2.txt
+│   │       ├── makefile
+│   │       ├── swapnodes.c
+│   │       └── swapnodes.o
+│   ├── minimumno
+│   │   ├── README.md
+│   │   ├── input.txt
+│   │   ├── makefile
+│   │   ├── minimumno.c
+│   │   └── minimumno.o
+│   └── miscellaneous
+│       ├── README.md
+│       ├── makefile
+│       ├── mergesortfor2array.c
+│       └── mergesortfor2array.o
+├── java
+│   ├── hackerrank
+│   │   ├── acmicpcteam
+│   │   │   ├── acm-icpc-team-english.pdf
+│   │   │   ├── acmicpcteam.java
+│   │   │   ├── input03.txt
+│   │   │   ├── makefile
+│   │   │   ├── output.txt
+│   │   │   └── output03.txt
+│   │   ├── alternatingcharacters
+│   │   │   ├── alternating-characters-english.pdf
+│   │   │   ├── alternatingcharacters.java
+│   │   │   └── makefile
+│   │   ├── angrychildren
+│   │   │   ├── angry-children-english.pdf
+│   │   │   ├── angrychildren.java
+│   │   │   └── makefile
+│   │   ├── angrychildren2
+│   │   │   ├── angry-children-2-english.pdf
+│   │   │   ├── angrychildren2.java
+│   │   │   ├── input00.txt
+│   │   │   └── makefile
+│   │   ├── chocolatefeast
+│   │   │   ├── chocolate-feast-english.pdf
+│   │   │   ├── chocolatefeast.java
+│   │   │   └── makefile
+│   │   ├── connectingtowns
+│   │   │   ├── connecting-towns-english.pdf
+│   │   │   ├── connectingtowns.java
+│   │   │   └── makefile
+│   │   ├── correctnessandtheloopinvariant
+│   │   │   ├── correctness-invariant-english.pdf
+│   │   │   ├── insertionsortpart2.java
+│   │   │   └── makefile
+│   │   ├── fillingjars
+│   │   │   ├── filling-jars-english.pdf
+│   │   │   ├── fillingjars.java
+│   │   │   └── makefile
+│   │   ├── finddigits
+│   │   │   ├── find-digits-english.pdf
+│   │   │   ├── finddigits.java
+│   │   │   └── makefile
+│   │   ├── gameofthrones-i
+│   │   │   ├── game-of-thrones-english.pdf
+│   │   │   ├── gameofthronesi.java
+│   │   │   └── makefile
+│   │   ├── halloweenparty
+│   │   │   ├── halloween-party-english.pdf
+│   │   │   ├── halloweenparty.java
+│   │   │   └── makefile
+│   │   ├── handshake
+│   │   │   ├── handshake-english.pdf
+│   │   │   ├── handshake.java
+│   │   │   └── makefile
+│   │   ├── insertionsort-part1
+│   │   │   ├── insertionsort1-english.pdf
+│   │   │   ├── insertionsortpart1.java
+│   │   │   └── makefile
+│   │   ├── insertionsort-part2
+│   │   │   ├── insertionsort2-english.pdf
+│   │   │   ├── insertionsortpart2.java
+│   │   │   └── makefile
+│   │   ├── isfibo
+│   │   │   ├── is-fibo-english.pdf
+│   │   │   ├── isfibo.java
+│   │   │   └── makefile
+│   │   ├── jagguplayingwithballoons
+│   │   │   ├── jagia-playing-with-numbers-english.pdf
+│   │   │   └── makefile
+│   │   ├── manasaandstones
+│   │   │   ├── makefile
+│   │   │   ├── manasa-and-stones-english.pdf
+│   │   │   └── manasaandstones.java
+│   │   ├── maximizingxor
+│   │   │   ├── makefile
+│   │   │   ├── maximizing-xor-english.pdf
+│   │   │   └── maximizingxor.java
+│   │   ├── minimumdraws
+│   │   │   ├── makefile
+│   │   │   ├── minimum-draws-english.pdf
+│   │   │   └── minimumdraws.java
+│   │   ├── projecteuler#65convergentsofe
+│   │   │   ├── euler065-english.pdf
+│   │   │   ├── makefile
+│   │   │   └── projecteuler65convergentsofe.java
+│   │   ├── quicksort1-partition
+│   │   │   ├── makefile
+│   │   │   ├── quicksort1-english.pdf
+│   │   │   └── solution.java
+│   │   ├── runningtimeofalgorithms
+│   │   │   ├── insertionsortpart2.java
+│   │   │   ├── makefile
+│   │   │   └── runningtime-english.pdf
+│   │   ├── sherlockandgcd
+│   │   │   ├── input.txt
+│   │   │   ├── makefile
+│   │   │   ├── sherlock-and-gcd-english.pdf
+│   │   │   └── sherlockandgcd.java
+│   │   ├── sherlockandpermutations
+│   │   │   ├── combinations.java
+│   │   │   ├── makefile
+│   │   │   └── sherlock-and-permutations-english.pdf
+│   │   ├── sherlockandsquares
+│   │   │   ├── makefile
+│   │   │   ├── sherlock-and-squares-english.pdf
+│   │   │   └── sherlockandsquares.java
+│   │   ├── sherlockandthebeast
+│   │   │   ├── makefile
+│   │   │   ├── sherlock-and-the-beast-english.pdf
+│   │   │   └── sherlockandthebeast.java
+│   │   ├── snakesandladders-thequickestwayup
+│   │   │   ├── makefile
+│   │   │   ├── snakesandladder.java
+│   │   │   └── the-quickest-way-up-english.pdf
+│   │   ├── thecoinchangeproblem
+│   │   │   ├── coinchange.class
+│   │   │   ├── coinchange.java
+│   │   │   ├── input.txt
+│   │   │   └── makefile
+│   │   ├── thelongestincreasingsubsequence
+│   │   │   ├── longest-increasing-subsequent-english.pdf
+│   │   │   ├── makefile
+│   │   │   └── patiencesort.java
+│   │   ├── thelove-lettermystery
+│   │   │   ├── lovelettermystery.java
+│   │   │   ├── makefile
+│   │   │   └── the-love-letter-mystery-english.pdf
+│   │   ├── themaximumsubarray
+│   │   │   ├── makefile
+│   │   │   ├── maxsubarray-english.pdf
+│   │   │   └── solution.java
+│   │   └── utopiantree
+│   │       ├── makefile
+│   │       ├── utopian-tree-english.pdf
+│   │       └── utopiantree.java
+│   └── minimumno
+│       ├── README.md
+│       ├── makefile
+│       └── minimumno.java
+├── makefile
+└── tree.txt
+
+81 directories, 358 files
