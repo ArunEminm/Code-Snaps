@@ -25,25 +25,12 @@ def heapify(arr, n, i):
             # Heapify the root. 
             heapify(arr, n, largest) 
 
-# The main function to sort an array of given size 
-def heapSort(arr): 
-    n = len(arr) 
 
-    # Build a maxheap. 
-    for i in range(n, -1, -1): 
-        heapify(arr, n, i) 
+if __name__ == "__main__":
+    l = [10, 2, 14, 4, 7, 5]
+    n = len(l)
 
-    # One by one extract elements 
-    for i in range(n-1, 0, -1): 
-        # print('33')
-        arr[i], arr[0] = arr[0], arr[i] # swap 
-        heapify(arr, i, 0) 
+    for i in range(n -1, -1, -1):
+        heapify(l, n, i)
 
-# Driver code to test above 
-arr = [ 12, 11, 13, 5, 6, 7] 
-# heapSort(arr) 
-n = len(arr) 
-print ("Sorted array is") 
-for i in range(n): 
-    print ("%d" %arr[i]), 
-# This code is contributed by Mohit Kumra 
+    print(l)
