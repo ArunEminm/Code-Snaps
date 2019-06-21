@@ -20,5 +20,5 @@ if(__name__ == '__main__'):
     while(t > 0):
         arr.append(int(input()))
         t -= 1
-    max__ = maxDifferenceerence(arr, n) 
+    max__ = maxDifference(arr, n) 
     print (max__) 
